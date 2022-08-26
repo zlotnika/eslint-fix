@@ -12,4 +12,6 @@ To automatically format after saving:
 (add-hook 'js-mode-hook #'eslint-fix-auto-mode)
 
 (add-hook 'js2-mode-hook #'eslint-fix-auto-mode)
+
+(add-hook 'typescript-mode-hook #'eslint-fix-auto-mode)
 ```
